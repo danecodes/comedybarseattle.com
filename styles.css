@@ -1,0 +1,70 @@
+body {
+  background-color: #eabe32;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #393013;
+}
+
+img.logo {
+  width: 70%;
+  height: auto;
+  margin-top: 100px;
+}
+
+img.logo_small {
+  width: 50%;
+  height: auto;
+  margin-top: 100px;
+}
+
+#wrapper {
+  width: 50%;
+  height: auto;
+  margin: 0 25%;
+  min-width: 428px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#social {
+  width: 40%;
+  margin: 50px auto;
+  min-width: 428px;
+}
+
+#social img {
+  width: 30px;
+  height: auto;
+  margin: 7px 0;
+
+}
+
+#social span {
+  font-family: Montserrat;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+#social span a {
+  font-family: Montserrat;
+}
+
+h4{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+h5{
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+#newsletter {
+  margin: 40px 0;
+}
