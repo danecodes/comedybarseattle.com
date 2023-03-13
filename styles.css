@@ -12,7 +12,7 @@ img.logo {
   margin-bottom: 30px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
   img.logo {
     margin-top: 70px;
     width: 80%;
@@ -90,10 +90,10 @@ h5{
 
 #newsletter {
   margin: 40px auto;
-  width: 50%;
+  width: 60%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
   #newsletter {
     margin: 40px 0;
     width: 100%;
