@@ -25,6 +25,16 @@ a:visited {
   font-family: 'Montserrat', sans-serif;
 }
 
+.blue {
+  color: #31799E !important;
+}
+
+.bold {
+  color: #31799E !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
@@ -85,7 +95,7 @@ em {
 }
 
 #main_logo {
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
 #main_header {
