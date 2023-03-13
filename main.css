@@ -110,6 +110,15 @@ em {
   color: #31799E;
 }
 
+#main_breadcrumb {
+  width: 100%;
+}
+
+#main_breadcrumb a {
+  font-size: 0.7em;
+  padding: 0 20px 0 0;
+}
+
 section {
   width: 100%;
   text-align: left;
@@ -155,6 +164,12 @@ footer {
   margin-top: 80px;
   padding-top: 40px;
   font-size: 0.8em;
+}
+
+.breadcrumb {
+  position: relative;
+  font-size: 0.7em;
+  margin-bottom: 40px;
 }
 
 /* BIG SCREENS */
