@@ -65,11 +65,11 @@ em {
 #wrapper {
   width: 100%;
   height: 100%;
-  min-width: 400px;
+  min-width: 800px;
   max-width: 1400px;
   min-height: 800px;
 
-  margin: 50px 0;
+  margin: 80px 0;
 
   display: flex;
   align-items: center;
@@ -84,19 +84,14 @@ em {
 }
 
 #main_logo {
+  margin-bottom: 2px;
 }
 
 #main_header {
   width: 100%;
-  height: 160px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #main_navigation {
-  width: 80%;
 }
 
 #main_navigation a {
@@ -110,19 +105,25 @@ em {
   color: #31799E;
 }
 
+#main_navigation a:last-child {
+  margin-right: 0;
+}
+
 #main_breadcrumb {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 #main_breadcrumb a {
   font-size: 0.7em;
   padding: 0 20px 0 0;
+  color: #31799E;
 }
 
 section {
   width: 100%;
   text-align: left;
-  margin: 40px 20px;
+  margin: 50px 20px;
 }
 
 section p {
@@ -133,6 +134,7 @@ section p {
 section p a {
   color: #31799E;
   font-weight: 600;
+  color: #31799E;
 }
 
 section p.thanks {
