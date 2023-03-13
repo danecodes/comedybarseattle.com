@@ -20,8 +20,8 @@ img.logo_small {
 
 #wrapper {
   width: 100%;
-  height: auto;
-  margin: 0;
+  height: 100%;
+  margin: auto;
   min-width: 400px;
   text-align: center;
 }
@@ -89,6 +89,13 @@ h5{
   width: 60%;
 }
 
+@media (max-width: 1800px) {
+  img.logo {
+    margin-top: 60px;
+    width: 40%;
+  }
+}
+
 @media (max-width: 1000px) {
   img.logo {
     margin-top: 60px;
@@ -99,7 +106,7 @@ h5{
 @media (max-width: 600px) {
   img.logo {
     margin-top: 50px;
-    width: 80%;
+    width: 100%;
   }
 
   #newsletter {
