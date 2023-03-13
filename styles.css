@@ -89,12 +89,13 @@ h5{
 }
 
 #newsletter {
-  margin: 40px 0;
+  margin: 40px auto;
+  width: 50%;
 }
 
 @media (max-width: 700px) {
   #newsletter {
-    margin: 40px auto;
-    width: 50%;
+    margin: 40px 0;
+    width: 100%;
   }
 }
