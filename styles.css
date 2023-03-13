@@ -12,14 +12,6 @@ img.logo {
   margin-bottom: 30px;
 }
 
-@media (max-width: 600px) {
-  img.logo {
-    margin-top: 80px;
-    width: 80%;
-  }
-}
-
-
 img.logo_small {
   width: 80%;
   height: auto;
@@ -98,8 +90,17 @@ h5{
 }
 
 @media (max-width: 600px) {
+  img.logo {
+    margin-top: 20px;
+    width: 80%;
+  }
+
   #newsletter {
     margin: 40px 0;
     width: 100%;
+  }
+
+  #social {
+    margin: 40px 0 0;
   }
 }
