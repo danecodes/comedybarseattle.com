@@ -66,7 +66,7 @@ em {
   width: 100%;
   height: 100%;
   min-width: 800px;
-  min-height: 600px;
+  min-height: 800px;
 
   margin: 80px 0;
 
@@ -78,8 +78,9 @@ em {
 #content {
   position: relative;
   width: 60%;
+  height: 100%;
   margin: 0 auto;
-  min-height: 600px;
+  min-height: 800px;
   max-width: 1400px;
 }
 
@@ -159,8 +160,6 @@ section ul li {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   border-top: 1px solid #39301340;
   margin-top: 80px;
@@ -176,14 +175,38 @@ footer {
 
 /* BIG SCREENS */
 @media (max-width: 1800px) {
+  #wrapper {
+  }
+
+  #main_navigation a {
+    font-size: 20px;
+    margin: 0 20px;
+    font-weight: 300;
+  }
 }
 
 /* MID SCREENS */
 @media (max-width: 900px) {
+  #wrapper {
+    min-width: 400px;
+  }
 
+  #main_navigation a {
+    font-size: 16px;
+    margin: 0 10px;
+    font-weight: 300;
+  }
 }
 
 /* LITTLE SCREENS */
 @media (max-width: 600px) {
+  #wrapper {
+    min-width: 400px;
+  }
 
+  #main_navigation a {
+    font-size: 14zpx;
+    margin: 0 5px;
+    font-weight: 300;
+  }
 }
