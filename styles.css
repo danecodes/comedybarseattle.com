@@ -14,7 +14,7 @@ img.logo {
 
 @media (max-width: 600px) {
   img.logo {
-    margin-top: 30px;
+    margin-top: 80px;
     width: 80%;
   }
 }
@@ -75,7 +75,7 @@ a {
 
 label {
   font-size: 12px;
-  margin-top: 50px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 
