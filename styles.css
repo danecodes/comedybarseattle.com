@@ -6,9 +6,10 @@ body {
 }
 
 img.logo {
-  width: 50%;
+  width: 40%;
   height: auto;
   margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 img.logo_small {
