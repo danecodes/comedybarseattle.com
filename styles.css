@@ -59,7 +59,7 @@ a {
 }
 
 #cta  {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -103,7 +103,7 @@ h5{
 }
 
 /* MID SCREENS */
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   img.logo {
     margin-top: 60px;
     width: 70%;
