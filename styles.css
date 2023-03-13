@@ -89,20 +89,32 @@ h5{
   width: 60%;
 }
 
+
+/* MID SCREENS */
 @media (max-width: 1800px) {
   img.logo {
     margin-top: 60px;
     width: 40%;
   }
+
+  #social {
+    margin: 60px 0 0;
+  }
 }
 
+/* MID SCREENS */
 @media (max-width: 1000px) {
   img.logo {
     margin-top: 60px;
     width: 70%;
   }
+
+  #social {
+    margin: 80px 0 0;
+  }
 }
 
+/* LITTLE SCREENS */
 @media (max-width: 600px) {
   img.logo {
     margin-top: 50px;
