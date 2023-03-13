@@ -6,9 +6,9 @@ body {
 }
 
 img.logo {
-  width: 70%;
+  width: 50%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 img.logo_small {
@@ -51,6 +51,20 @@ a {
   text-transform: uppercase;
   color: black;
   letter-spacing: 3px;
+}
+
+h2  {
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 12px;
+  margin-top: 50px;
+  text-transform: uppercase;
 }
 
 h4{
