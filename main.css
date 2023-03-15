@@ -98,6 +98,11 @@ em {
   margin-bottom: 10px;
 }
 
+#main_logo img {
+  width: 300px;
+  height: auto; 
+}
+
 #main_header {
   width: 100%;
 }
@@ -132,9 +137,9 @@ em {
 }
 
 section {
-  width: 100%;
   text-align: left;
-  margin: 50px 20px;
+  margin: 50px 0;
+  padding: 0 20px;
 }
 
 section p {
@@ -173,8 +178,35 @@ footer {
   width: 100%;
   border-top: 1px solid #39301340;
   margin-top: 80px;
-  padding-top: 40px;
+  padding-top: 20px;
   font-size: 0.8em;
+}
+
+footer h5 {
+  margin-bottom: 3px;
+}
+
+#social {
+  margin: 10px 0 2px;
+}
+
+#social img {
+  width: 30px;
+  height: auto;
+  margin: 7px 0;
+
+}
+
+#social span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 3px;
+}
+
+#social a {
+  margin-bottom: 10px;
 }
 
 .breadcrumb {
@@ -211,12 +243,17 @@ footer {
 /* LITTLE SCREENS */
 @media (max-width: 600px) {
   #wrapper {
-    min-width: 400px;
+    min-width: 328px;
+  }
+
+  #content {
+    width: 80%;
   }
 
   #main_navigation a {
     font-size: 14zpx;
-    margin: 0 5px;
+    margin: 0 3px;
     font-weight: 300;
+    line-height: 18px;
   }
 }
