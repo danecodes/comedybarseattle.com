@@ -34,12 +34,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-      #calendar img {
+      #calendar .row {
+        width: 100%;
+        text-align: center;
+      }
+
+      .row img {
         display: inline;
         width: 20%;
         height: auto;
-        text-align: center;
-      }
     </style>
   </head>
   <body>
@@ -64,11 +67,17 @@
         <section>
           <h2>CALENDAR</h2>
           <div id="calendar">
-            <img src="img/may0.png" /><br/>
-            <img src="img/may1.png" />
-            <img src="img/may2.png" /><br/>
-            <img src="img/may3.png" />
-            <img src="img/may4.png" />
+            <div class="row">
+              <img src="img/may0.png" />
+            </div>
+            <div class="row">
+              <img src="img/may1.png" />
+              <img src="img/may2.png" />
+            </div>
+            <div class="row">
+              <img src="img/may3.png" />
+              <img src="img/may4.png" />
+            </div>
           </div>
         </section>
 
